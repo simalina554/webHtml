@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Книжный магазин "Authors"</title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link href="C:\Users\MAX\Desktop\Алина\MyScript\SQLPython\miniWebsite\favicon.ico" rel="shortcut icon"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vujahday+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Vujahday+Script&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	   <link rel="stylesheet" type="text/css" href="style.css">
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">
+		td, h1{
+			font-family: 'Vujahday Script', cursive;
+		}
+	</style>
+
+</head>
+</head>
+<body  id="demo">
+ 
+<div class="container" style="font-size: 30px;"  id="demo">
+
+    <nav class="navbar navbar-expand-sm navbar-warning bg-warning mt-2">
+        <div class="container-fluid">
+        <a href="#mainpage" class="navbar-brand"><img src="https://i.pinimg.com/236x/18/18/88/18188820e5da19a3908aeb18af5246b5--design-logos-book-logo-design.jpg" style="width: 40px; height: 40px;" ></a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMen">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarMen">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html" target="_blank">Продукция</a></li>
+            <li class="nav-item"><a class="nav-link" href="aboutus.html" target="_blank">О Нас</a></li>
+            <li class="nav-item"><a class="nav-link" href="contactus.html" target="_blank">Наши контакты</a></li>
+            <li class="nav-item"><a class="nav-link" href="new.html" target="_blank">Новинки</a></li>
+            <li class="nav-item"><a class="nav-link" href="productsdescription.html" target="_blank">Описание</a></li>
+          </ul>
+        
+        </div>
+      </div>
+</nav>
+</div>
+
+<div class="container-fluid">
+<h1>Связаться с нами</h1>
+
+
+<div id="disblock">
+<div class="form">
+	<h1>Form</h1>
+			<form>
+			<label>Имя: </label>
+			<input type="text" name="uname" id="uname" class="form-control" placeholder="Input username...">
+			<label for="email">Email:</label>
+		    <input type="email" name="email" class="form-control" placeholder="test@email.com">
+		<div class ="mt-3 mb-3 input-group-sm">
+			<label for="number">Телефон: </label>
+					<select>
+			<option value="+23">+23</option>
+			<option value="+7" selected>+7</option>
+			<option value="+67">+67</option>
+		</select>
+			<input class="form-control" type="text" name="telnumb" id="telnumb" placeholder="Input telnum...">
+		</div>
+		<div class="mt-3 mb-3">
+		<label>Сайт: </label>
+		<input type="text" name="saite" class="form-control" placeholder="Input username...">
+	</div>
+		</form>	
+			<div class="row">
+		<div class="col">
+			<label>Comment: </label>
+			<input type="text" name="comment" id="commen" class="form-control" placeholder="Input comment...">
+		</div>
+	</div>
+</div>
+</div>
+</div>
+
+
+
+
+<h1>Наши контакты</h1>
+<button id="show">Посмотреть соцсети</button><br>
+<button id="hide">Скрыть соцсети</button><br>
+<div><a href="#" class="aclass" id="hs1"><i class="fa fa-whatsapp" ></i></a></div>
+<div><a href="#no_scroll" class="aclass" id="hs2"><i class="fa fa-facebook"></i></a></div>
+<div><a href="##" class="aclass" id="hs3"><i class="fa fa-instagram"></i></a></div>
+<br>
+
+
+
+
+<button type="button" onclick="myFunction()" style="font-size: 20px;">Изменить шрифт</button>
+<script src="C:\Users\MAX\Desktop\Алина\MyScript\SQLPython\miniWebsite\JS.js"></script>
+
+<script type="text/javascript">
+	    $(document).ready(function(){
+    	$("#hide").click(function(){
+    		$("#hs1").hide(1000);
+    		$("#hs2").hide(2000);
+    		$("#hs3").hide(3000);
+    	});
+
+    	$("#show").click(function(){
+    		$("#hs1").show(1000);
+    		$("#hs2").show(2000);
+    		$("#hs3").show(3000);
+    	});
+    })
+</script>
+
+</body>
+</html>

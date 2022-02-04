@@ -1,0 +1,157 @@
+div.description{
+	background-color: lightgrey;
+	width: 500px;
+	border: double 5px;
+	padding: 65px;
+	margin: auto;
+	height: 600px;
+	text-align: center;
+	border-color: rgb(183, 138, 92);
+	margin-top: 30px;
+}
+
+p{
+	font-size: 14px;
+	color: rgb(18, 13, 8);
+}
+
+
+h1, h2, h3, h4, h5, h6{
+	color: rgb(65, 46, 27);
+	font-family: 'Vujahday Script', cursive;
+	text-align: center;
+}
+
+
+
+body{
+	background: url(https://lh4.googleusercontent.com/JF5ll5h92znpF3dMZZM7oImhi9j_OH1LCT9on-zozUX0jXsU3wICu0LpvAbHCn0sro1szi2RXim5DPuqDUie7d1sJ0tJRVHefO97NwA4C_Ha06HBScmZtE3GuW2Im8MJvSF_zJdh);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-color: rgba(100%,100%,0);
+	text-align: center;
+	
+	
+}
+
+
+
+
+
+.comment{
+	color: brown;
+	text-align: left;
+}
+
+
+textarea{
+	border: 2px solid;
+	border-color: rgb(214, 140, 67);
+}
+
+
+ol{
+	text-align: left;
+	color: #330000;
+	font-size: 16px;
+
+}
+
+#lef{
+	text-align: left;
+}
+
+strong{
+	font-size: 20px;
+}
+
+
+a.aclass:link{
+	background-color: #8e81b2;
+	color: #613733;
+	font-size: 18px;
+}
+
+
+a.aclass:hover{
+	background-color: #523e4a;
+	color: #6c3c3d;
+	font-size: 18px;
+}
+
+
+#cen{
+	margin: auto;
+
+}
+
+
+#disblock{
+	margin: auto;
+	padding: 50px;
+	background-color: lightgrey;
+	width: 600px;
+	border: double 5px;
+	padding: 65px;
+	margin: auto;
+	height: 600px;
+	text-align: center;
+	border-color: rgb(214, 140, 67);
+	margin-bottom: 50px;
+	
+}
+
+i{
+	width: 50px;
+	height: 40px;
+}
+
+
+div.who{
+	border: none;}
+
+
+.dropbutton{
+	background-color: Beige;
+	border: none;
+	color: brown;
+	padding: 17px;
+	font-size: 18px;
+}
+
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content{
+	position: absolute;
+	min-width: 160px;
+	background-color: white;
+	display: none;
+}
+
+.dropdown-content > a{
+	color: black;
+	text-decoration: none;
+	display: block;
+	padding: 12px;
+	border-bottom: 1px solid white;
+
+}
+
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+
+#dizain{
+	background-color: BurlyWood;
+}		
+
+
+.left{
+	margin-left: 1000px;
+	size: 200px;
+}
+
